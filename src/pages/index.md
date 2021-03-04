@@ -54,7 +54,8 @@ sections:
     background_image_size: cover
     background_image_opacity: 10
   - type: grid_section
-    title: Full Chapter  Overview
+    title: Full Chapter Overview
+    id: overview
     grid_items:
       - content: |-
           ### Chapter 1, Getting started with Puppeteer
@@ -123,6 +124,7 @@ sections:
     background_image_size: cover
     background_image_opacity: 10
   - type: features_section
+    id: author
     features:
       - title: About the author
         subtitle: 'Dario Kondratiuk, Microsoft MVP'

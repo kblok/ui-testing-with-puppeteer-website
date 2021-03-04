@@ -10,17 +10,12 @@
         "primary_nav_links": [
             {
                 "label": "Overview",
-                "url": "#",
+                "url": "#overview",
                 "style": "link"
             },
             {
-                "label": "Story",
-                "url": "/story",
-                "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
+                "label": "About the author",
+                "url": "#author",
                 "style": "link"
             }
         ],
