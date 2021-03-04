@@ -2,20 +2,18 @@
 title: Home
 sections:
   - type: hero_section
-    title: The Marketing Tricks No MBA Can Teach You
-    subtitle: Your guide to B2B marketing in the real world.
+    title: UI Testing with Puppeteer
+    subtitle: Implement end-to-end testing and browser automation using JavaScript and Node.js.
     content: |-
-      This book is your go-to guide for all marketing channels. Learn how to
-      create effective landing pages, compelling ads, creative copywriting and
-      converting marketing materials for any business.
+      Write fail-safe automation tests, device emulation, and browser automation using Puppeteer’s API powered by Google
     actions:
       - label: Get the book
-        url: /pricing
+        url: https://www.amazon.com/Testing-Puppeteer-end-end-automation-ebook/dp/B08PFPMKFX
         style: primary
         has_icon: true
         icon: arrow-right
         icon_position: right
-    image: images/marketing-playbook.png
+    image: images/B16113_Mockup cover.jpg
     image_alt: Marketing Playbook preview
     media_position: left
     media_width: fourty
@@ -23,55 +21,18 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: none
-  - type: grid_section
-    title: 'Read by marketers at:'
-    align: center
-    grid_items:
-      - image: images/logo-1.svg
-        image_alt: Logo 1
-        image_align: center
-      - image: images/logo-2.svg
-        image_alt: Logo 2
-        image_align: center
-      - image: images/logo-3.svg
-        image_alt: Logo 3
-        image_align: center
-      - image: images/logo-4.svg
-        image_alt: Logo 4
-        image_align: center
-      - image: images/logo-5.svg
-        image_alt: Logo 5
-        image_align: center
-      - image: images/logo-6.svg
-        image_alt: Logo 6
-        image_align: center
-      - image: images/logo-7.svg
-        image_alt: Logo 7
-        image_align: center
-    grid_cols: four
-    grid_gap_horiz: medium
-    grid_gap_vert: medium
   - type: features_section
     features:
-      - title: What’s Inside
-        subtitle: How this book will teach you real world marketing
+      - title: What you will learn
         content: |-
-          - All you need to know about PPC
-          - How to create a brand that sells
-          - Putting together a multi-channel marketing plan
-          - Tracking, attribution and analytics
-          - Analyzing your competitors
-          - Marketing ads no one can ignore
-          - The social media of today
-        actions:
-          - label: Start learning
-            url: /thank-you
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        image: images/book-inside.png
-        image_alt: Look inside Marketing Playbook
+          - Understand browser automation fundamentals
+          - Explore end-to-end testing with Puppeteer and its best practices
+          - Apply CSS Selectors and XPath expressions to web automation
+          - Discover how you can leverage the power of web automation as a developer
+          - Emulate different use cases of Puppeteer such as network speed tests and geolocation
+          - Get to grips with techniques and best practices for web scraping and web content generation
+        image: images/puppeteer.png
+        image_alt: Look inside
         media_position: right
         media_width: fifty
     feature_padding_vert: small
@@ -80,8 +41,7 @@ sections:
   - type: features_section
     features:
       - title: |-
-          “This book is inspiring and practical. It’s thought-provoking and full
-          of examples which definitely motivates me”
+          “UI testing with Puppeteer has everything you need to get started with UI testing. It's the book the community was waiting for”
         subtitle: 'Hilary Ouse, Sr. Marketing Manager at Company'
         image: images/hilary-ouse.png
         image_alt: Brandon Guidelines
@@ -97,98 +57,62 @@ sections:
     title: Full Chapter  Overview
     grid_items:
       - content: |-
-          ### Know Your Audience
+          ### Chapter 1, Getting started with Puppeteer
 
-          Discovery, research and pure intuition: How to slice and dice all the
-          information you can gather about your customers.
+          It will help you get started with Puppeteer by introducing you to the tool and getting you acquainted with the essentials to get started. You will also cover how to write async code in JavaScript.
       - content: >-
-          ### Performance Marketing
+          ### Chapter 2, Automated Testing and Test runners
 
 
-          Know your PPC from your CPA and CTR — a quick start guide to
-          performance marketing channels, setups, budgeting and creative.
+          It covers end-to-end testing fundamentals and the difference between different types of tests. In the latter part of the chapter, we will cover creating and organizing a test project and getting started with test runners.
       - content: |-
-          ### The Truth About Branding
+          ### Chapter 3, Navigating through a website
 
-          A brand is merely a collection of touchpoints between your company and
-          your customers. Learn how to make those interactions count.
+          This chapter allows you to start coding your tests. You will learn how to launch a browser, navigate to a page and make some assertions. Then you will see how to publish your tests to the cloud to be tested.
       - content: |-
-          ### Content is King
+          ### Chapter 4, Interacting with a page
 
-          What you should be writing about, where it should be published, who
-          should read it, and what difference does it make. A comprehensive
-          guide to content marketing.
+          It's about interaction. Once you get to a page, how do you test it? How do you simulate user interaction? This chapter takes you through the most common ways of interacting with a page. This chapter also covers some basic HTML concepts, so you can take advantage of all the tools Puppeteer provides.
       - content: >-
-          ### Social Media
+          ### Chapter 5, Waiting for elements and network calls
 
 
-          Google, Facebook, TikTok, LinkedIn — what should you use, and how? And
-          how do you know that it's actually working? Build a social media
-          strategy like a pro.
+          Learn how to wait for the different scenarios on the page you are testing—waiting for the page to load, and to be ready, waiting for a button to be enabled, waiting for an Ajax call to be completed. This chapter covers all the tools that puppeteer offers to accomplish these scenarios.
       - content: |-
-          ### Seeing What Works
+          ### Chapter 6, Executing and Injecting JavaScript
 
-          There is no shortage of analytics tools for marketing campaigns —
-          email platforms, data centers, campaign dashboards and app
-          attribution... How to choose the right tools that will work for you.
+          Chapter 6 shows you one of the best features in Puppeteer: Injecting JavaScript code easily. In this chapter, we will leave the end-to-end testing world for a moment and dive into web-automation as a general-purpose tool.
+      - content: |-
+          ### Chapter 7, Generating Content with Puppeteer
+
+          It expands the usage of Puppeteer and shows you how we can create content using puppeteer. We’ll start by learning how screenshots are created and how they can be used for regression tests. Then we will cover PDF generation, and finally, we will learn to create pages on the fly.
+      - content: |-
+          ### Chapter 8, Environments emulation
+
+          This chapter explains all the tools Puppeteer provides to emulate different scenarios. It will show you how to emulate mobile devices, different screen resolutions, various network speeds, geolocation, and even things like vision deficiency.
+      - content: |-
+          ### Chapter 9, Scraping tools
+
+          Chapter 9 demystifies web scraping - showing how it can be implemented for good purposes. You will learn how to create scrapers and run tasks in parallel using Puppeteer Cluster
+      - content: |-
+          ### Chapter 10, Evaluating and improving the performance of a website
+
+          This last chapter shows you how puppeteer can help developers to evaluate and improve the performance of their sites. We will see how all the metrics you can see inside dev tools can be extracted and analyzed using puppeteer. This chapter also has a great introduction to Google Lighthouse and how to automate its reports and integrate them into your test.
     grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: small
     enable_cards: false
     align: center
     background_color: none
-  - type: features_section
-    features:
-      - title: Practical Exercises
-        subtitle: How you'll implement what you learn
-        content: |-
-          - Multi-channel marketing plan tutorials
-          - Brand questionnaire and worksheet
-          - Practice PPC campaigns
-          - 1hr consultation with a marketing guru
-          - Landing page templates
-          - Effective sales presentation starter
-        actions:
-          - label: Start learning
-            url: /thank-you
-            style: primary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-        image: images/book-inside-2.png
-        image_alt: Look inside Marketing Playbook
-        media_position: left
-        media_width: fifty
-    feature_padding_vert: small
-    align: center
-    background_color: none
   - type: grid_section
     title: Who Should Read This Book?
     grid_items:
       - content: |-
-          #### Marketers
-           - Learn how all of the marketing pieces fit together
-           - Master digital marketing for any business
-           - Get access to marketing gurus and their tips
-           - Prepare killer presentations and collateral
+          #### Quality Assurance professionals
+           If you are a quality assurance professional looking for a better and more modern tool to do your job, this is the book for you.
       - content: |-
-          #### Designers
-           - Gain big picture insights that affect design
-           - Learn how your design can inspire action
-           - Make advertisements that convert
-           - Create digital assets for the right audience
-      - content: |-
-          #### Business owners
-           - Kickstart your marketing plan and efforts
-           - Upgrade your brand, website and social media
-           - Prepare effective collateral for your business
-           - Start advertising your company online
-      - content: |-
-          #### Product managers
-           - Understand the context of your product work
-           - Learn how to segment your audience properly
-           - Implement brand voice and style in your work
-           - Connect top of funnel activities with your flow
+          #### Web Developers
+           Web developers who want to learn how to use Puppeteer for generating content, scraping websites, and evaluating website performance will find this book useful.
     grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: large
@@ -200,27 +124,12 @@ sections:
     background_image_opacity: 10
   - type: features_section
     features:
-      - title: What’s Inside
-        subtitle: 'Brandon Guidelines, Marketing Guru'
+      - title: About the author
+        subtitle: 'Dario Kondratiuk, Microsoft MVP'
         content: |-
-          **Marketing in the real world** is very different than what we learn
-          at school. If you've recently graduated and are making your first
-          steps in the business, it's imperative that you know how to use the
-          tools and tricks of the trade.
-
-
-          > **The world of marketing has changed dramatically in the last 10
-          years. Those who understand it, will succeed. But those who stay
-          behind, will have a lot to catch up on.”**
-
-
-          In this book I will teach you everything I know about B2B marketing.
-          From branding, marketing planning, content creation, SEO and PPC, to
-          segmenting your audience and understanding today's metrics and
-          analytics methodologies — this guide is the only marketing education
-          you'll ever need.
-        image: images/brandon-guidelines.jpg
-        image_alt: Brandon Guidelines Photo
+          Dario Kondratiuk is a web developer since 2001. He won the Microsoft MVP (most valuable professional) award in 2020 for his contributions to the developer’s community. Dario has been working with Puppeteer since the beta versions, back in 2017. He is the author of Puppeteer-Sharp, a Puppeteer port to .NET, and Playwright-Sharp, a Playwright port to .NET. He writes about web automation in his blog https://www.hardkoded.com, and he’s active on Stack Overflow.
+        image: images/DarioKondratiuk.png
+        image_alt: Dario Photo
         media_position: right
         media_width: fourty
     feature_padding_vert: small
@@ -230,7 +139,7 @@ sections:
     title: Download the e-book today
     actions:
       - label: Get the e-book
-        url: /pricing
+        url: https://www.amazon.com/Testing-Puppeteer-end-end-automation-ebook/dp/B08PFPMKFX
         style: primary
     actions_position: bottom
     align: center
@@ -242,17 +151,17 @@ sections:
     background_image_size: cover
     background_image_opacity: 10
 seo:
-  title: Stackbit Book Theme
-  description: The preview of the Book theme
+  title: UI Testing with Puppeteer Book
+  description: UI Testing with Puppeteer Book
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Book Theme
+      value: UI Testing with Puppeteer Book
       keyName: property
     - name: 'og:description'
-      value: The preview of the Book theme
+      value: UI Testing with Puppeteer Book
       keyName: property
     - name: 'og:image'
       value: images/book-preview.png
@@ -261,9 +170,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Book Theme
+      value: UI Testing with Puppeteer Book
     - name: 'twitter:description'
-      value: The preview of the Book theme
+      value: UI Testing with Puppeteer Book
     - name: 'twitter:image'
       value: images/book-preview.png
       relativeUrl: true
