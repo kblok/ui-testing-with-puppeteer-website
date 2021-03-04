@@ -153,30 +153,30 @@ sections:
     background_image_size: cover
     background_image_opacity: 10
 seo:
-  title: UI Testing with Puppeteer Book
-  description: UI Testing with Puppeteer Book
+  title: UI Testing with Puppeteer
+  description: UI Testing with Puppeteer
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: UI Testing with Puppeteer Book
+      value: UI Testing with Puppeteer
       keyName: property
     - name: 'og:description'
-      value: UI Testing with Puppeteer Book
+      value: UI Testing with Puppeteer
       keyName: property
     - name: 'og:image'
-      value: images/book-preview.png
+      value: images/B16113_Mockup cover.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: UI Testing with Puppeteer Book
+      value: UI Testing with Puppeteer
     - name: 'twitter:description'
-      value: UI Testing with Puppeteer Book
+      value: UI Testing with Puppeteer
     - name: 'twitter:image'
-      value: images/book-preview.png
+      value: images/B16113_Mockup cover.jpg
       relativeUrl: true
 template: advanced
 ---
