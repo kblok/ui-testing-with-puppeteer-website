@@ -24,16 +24,6 @@
                 "style": "link"
             }
         ],
-        "has_secondary_nav": true,
-        "secondary_nav_links": [
-            {
-                "label": "Start Learning",
-                "url": "/thank-you",
-                "style": "primary"
-            }
-        ],
-        "has_anncmnt": true,
-        "anncmnt_content": "Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**",
         "anncmnt_align": "left",
         "anncmnt_is_home_only": true,
         "anncmnt_has_close": true,
