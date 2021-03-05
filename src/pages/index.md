@@ -42,8 +42,8 @@ sections:
     features:
       - title: |-
           “UI testing with Puppeteer has everything you need to get started with UI testing. It's the book the community was waiting for”
-        subtitle: 'Hilary Ouse, Sr. Marketing Manager at Company'
-        image: images/hilary-ouse.png
+        subtitle: 'Rodrigo Díaz Concha, Microsoft Regional Director'
+        image: images/testimonial.png
         image_alt: Brandon Guidelines
         media_position: left
         media_width: thirty-three
@@ -129,7 +129,7 @@ sections:
       - title: About the author
         subtitle: 'Dario Kondratiuk, Microsoft MVP'
         content: |-
-          Dario Kondratiuk is a web developer since 2001. He won the Microsoft MVP (most valuable professional) award in 2020 for his contributions to the developer’s community. Dario has been working with Puppeteer since the beta versions, back in 2017. He is the author of Puppeteer-Sharp, a Puppeteer port to .NET, and Playwright-Sharp, a Playwright port to .NET. He writes about web automation in his blog https://www.hardkoded.com, and he’s active on Stack Overflow.
+          Dario Kondratiuk is a web developer since 2001. He won the Microsoft MVP (most valuable professional) award in 2020 for his contributions to the developer’s community. Dario has been working with Puppeteer since the beta versions, back in 2017. He is the author of Puppeteer-Sharp, a Puppeteer port to .NET, and Playwright-Sharp, a Playwright port to .NET. He writes about web automation in his blog [hardkoded.com](https://www.hardkoded.com), and he’s active on Stack Overflow.
         image: images/DarioKondratiuk.png
         image_alt: Dario Photo
         media_position: right
