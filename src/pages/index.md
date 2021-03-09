@@ -8,7 +8,7 @@ sections:
       Write fail-safe automation tests, device emulation, and browser automation using Puppeteer’s API powered by Google
     actions:
       - label: Get the book
-        url: https://www.amazon.com/Testing-Puppeteer-end-end-automation-ebook/dp/B08PFPMKFX
+        url: https://www.amazon.com/Testing-Puppeteer-end-end-automation/dp/180020678X/
         style: primary
         has_icon: true
         icon: arrow-right
@@ -141,7 +141,7 @@ sections:
     title: Download the e-book today
     actions:
       - label: Get the e-book
-        url: https://www.amazon.com/Testing-Puppeteer-end-end-automation-ebook/dp/B08PFPMKFX
+        url: https://www.amazon.com/Testing-Puppeteer-end-end-automation/dp/180020678X/
         style: primary
     actions_position: bottom
     align: center
