@@ -86,7 +86,7 @@ sections:
       - content: |-
           ### Chapter 7, Generating Content with Puppeteer
 
-          It expands the usage of Puppeteer and shows you how we can create content using puppeteer. We’ll start by learning how screenshots are created and how they can be used for regression tests. Then we will cover PDF generation, and finally, we will learn to create pages on the fly.
+          It expands the usage of Puppeteer and shows you how we can create content using Puppeteer. We’ll start by learning how screenshots are created and how they can be used for regression tests. Then we will cover PDF generation, and finally, we will learn to create pages on the fly.
       - content: |-
           ### Chapter 8, Environments emulation
 
@@ -98,7 +98,7 @@ sections:
       - content: |-
           ### Chapter 10, Evaluating and improving the performance of a website
 
-          This last chapter shows you how puppeteer can help developers to evaluate and improve the performance of their sites. We will see how all the metrics you can see inside dev tools can be extracted and analyzed using puppeteer. This chapter also has a great introduction to Google Lighthouse and how to automate its reports and integrate them into your test.
+          This last chapter shows you how puppeteer can help developers to evaluate and improve the performance of their sites. We will see how all the metrics you can see inside dev tools can be extracted and analyzed using Puppeteer. This chapter also has a great introduction to Google Lighthouse and how to automate its reports and integrate them into your test.
     grid_cols: two
     grid_gap_horiz: medium
     grid_gap_vert: small
@@ -129,7 +129,7 @@ sections:
       - title: About the author
         subtitle: 'Dario Kondratiuk, Microsoft MVP'
         content: |-
-          Dario Kondratiuk is a web developer since 2001. He won the Microsoft MVP (most valuable professional) award in 2020 for his contributions to the developer’s community. Dario has been working with Puppeteer since the beta versions, back in 2017. He is the author of Puppeteer-Sharp, a Puppeteer port to .NET, and Playwright-Sharp, a Playwright port to .NET. He writes about web automation in his blog [hardkoded.com](https://www.hardkoded.com), and he’s active on Stack Overflow.
+          Dario Kondratiuk has been a web developer since 2001. He won the Microsoft MVP (most valuable professional) award in 2020 for his contributions to the developer’s community. Dario has been working with Puppeteer since the beta versions, back in 2017. He is the author of Puppeteer-Sharp, a Puppeteer port to .NET, and Playwright-Sharp, a Playwright port to .NET. He writes about web automation in his blog [hardkoded.com](https://www.hardkoded.com), and he’s active on Stack Overflow.
         image: images/DarioKondratiuk.png
         image_alt: Dario Photo
         media_position: right
